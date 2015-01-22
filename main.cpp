@@ -6,7 +6,7 @@ using namespace std;
 
 void display () {
     glClear(GL_COLOR_BUFFER_BIT);
-    glRotatef(1, 1, 1, 0);
+    glRotatef(1, 2, 3, 2);
     glBegin(GL_LINE_STRIP);
     glVertex3f(-50, -50, -50);
     glVertex3f(50, -50, -50);
